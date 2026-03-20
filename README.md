@@ -7,7 +7,7 @@ A fun little Chrome Extension that messes around with YouTube. Built just for th
 ## What does it do?
 
 - Injects itself into YouTube and **replaces video thumbnails** with a custom image
-- Has a popup called **Padai Mode** (படை) with a green button that says **"Make it Blue!"**
+- Has a popup called **Focus Mode**
 - Clicking the button triggers a visual change on the active YouTube tab
 - Remembers its state using `chrome.storage` so it doesn't forget what you did
 
