@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Thumbnail Replacer",
+    "version": "1.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["images/thumbnail1.png"],
+            "matches": ["*://*.youtube.com/*"]
+        }
+    ],
+    "permissions": ["tabs", "storage"]
+}
